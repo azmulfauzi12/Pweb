@@ -1,0 +1,59 @@
+#jadwal>tbody>tr>td, #jadwal>tbody>tr>th{
+	margin:5px;
+}
+
+#jadwal, #jadwal>tbody>tr>td, #jadwal>tbody>tr>th {
+	border: 2px groove;
+	border-collapse: collapse;
+}
+
+#jadwal>tbody>tr>td {
+	width: 200px;
+	height: 35px;
+	background: lightgray;
+}
+
+#jadwal>tbody>tr>th{
+	color:lightblue;
+}
+
+#deskripsi_setting{
+	float: right;
+	margin-right: 30px;
+}
+
+#form_deskripsi{
+	position: absolute;
+	right: 50px;
+}
+
+#isi-deskripsi{
+	border: 4px groove;
+	padding: 2em;
+	color: rgb(151, 67, 67);
+	width: 450px;
+	margin-left: 25px;
+}
+
+#konfirmasi{
+	padding: 1em;
+	margin-top: 2em;
+}
+
+#tabel-konfirmasi{
+	width: 800px;
+}
+
+#tabel-konfirmasi>tbody>tr>td, #jadwal>tbody>tr>th{
+	margin:5px;
+}
+
+#tabel-konfirmasi>tbody>tr>td {
+	width: 200px;
+	height: 35px;
+	background: whitesmoke;
+}
+
+#tabel-konfirmasi>tbody>tr>th{
+	color:rgb(151, 67, 67);
+}

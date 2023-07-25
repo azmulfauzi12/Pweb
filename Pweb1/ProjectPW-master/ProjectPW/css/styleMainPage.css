@@ -1,0 +1,113 @@
+#main-page-wrapper{
+	height: 1200px;
+	border: 2px groove;
+}
+
+#main-content {
+	width: 850px;
+	margin: 1em;
+	border: 2px groove;
+	float: left;
+}
+
+#side-menu{
+	width: 400px;
+	margin: 1em;
+	height: 60%;
+	right: 0;
+
+}
+
+#box-menu {
+	border: 2px groove;
+}
+
+#search {
+	margin: 1em;
+}
+
+.option-choice{
+	height: 190px;
+	padding: 1em;
+	border: 2px groove;
+}
+
+.box-foto, .box-deskripsi-tentor, .box-fee {
+	border: 2px groove;
+	float: left;
+	height: 180px;
+}
+
+.foto-tentor, .deskripsi-tentor, .fee{
+	padding: 5px;
+	height: 140px;
+}
+
+.foto-tentor{
+	width: 140px;
+}
+
+.deskripsi-tentor{
+	padding: 1em;
+	width: 490px;
+}
+
+.fee{
+	width: 140px;
+}
+
+.box-deskripsi-tentor{
+	width: 500px;
+}
+
+.box-fee{
+	width: 150px;
+}
+
+.box-foto{
+	width: 150px;
+}
+
+.harga, .border-atas, .border-bawah{
+	-ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+    position: absolute;
+}
+
+.harga{
+	margin-left: 40px;
+	margin-top: 18px;
+}
+
+.mapel{
+	margin-top: 65px;
+}
+
+.border-atas{
+	margin-left: 60px;
+    border-top: 2px groove;
+    margin-top: 15px; 
+    width: 90px;
+}
+
+.border-bawah{
+	margin-top: 34px;
+	border-top: 2px groove;
+	width: 150px;
+}
+
+.pilih{
+	border: 2px groove;
+	border-radius: 4px;
+	color: skyblue;
+	background:red; 
+	width: 60px;
+	height: 20px;
+	padding: 2px;
+}
+
+.pilih:hover{
+	cursor: pointer;
+	color: yellow;
+}

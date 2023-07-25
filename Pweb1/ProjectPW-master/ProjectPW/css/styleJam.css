@@ -1,0 +1,52 @@
+.clock {
+	padding: 30px;
+	color: #8C0F5A;
+	margin-top: 10%;
+	width: 300px;
+	border: 2px groove;
+	box-shadow: 0px 0px 13px 13px;
+}
+.clock ul {
+	width: 250px;
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.clock ul li {
+	display: inline;
+	font-size: 35px;
+	text-align: center;
+	font-family: "Arial", Helvetica, sans-serif;
+	text-shadow: 0 2px 5px #FC72F0, 0 3px 6px #F56AF4, 0 4px 7px #FA64E7;
+}
+#Date {
+	font-family: 'Arial', Helvetica, sans-serif;
+	font-size: 24px;
+	text-align: center;
+	text-shadow: 0 2px 5px #FDAEFC, 0 3px 6px #F49DE9;
+	padding-bottom: 20px;
+}
+
+#point {
+	position: relative;
+	-moz-animation: mymove 1s ease infinite;
+	-webkit-animation: mymove 1s ease infinite;
+	padding-left: 10px;
+	padding-right: 10px
+}
+
+@-webkit-keyframes mymove
+{
+	0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
+	50% {opacity:0; text-shadow:none; }
+	100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }
+}
+
+@-moz-keyframes mymove
+{
+	0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
+	50% {opacity:0; text-shadow:none; }
+	100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }
+}

@@ -1,0 +1,175 @@
+a{
+	text-decoration: none;
+	color:black;
+}
+.menucenter{
+	padding: 2em 2em;
+	background-color: rgba(223, 185, 127, 0.84);
+}
+.menuprofil{
+	
+
+}
+.searchengine{
+	border-style: dashed;
+	border-width: 3px;
+	width: 40%;
+	margin: 20px 200px 20px;
+
+}
+.menubio{
+	font-size: 20px;
+	width: 20%;
+}
+.searchmenu{
+	border-style: dotted;
+	margin:10px 10px 10px;
+
+}
+
+.optionbio{
+	border-bottom: dashed;
+	background: rgba(249, 93, 217, 0.19);
+	border-color: rgb(210, 198, 198);
+	padding: 20px;
+}
+
+.hover{
+	cursor: pointer;
+}
+
+#profile_image{
+	width: 100%;
+	height: 200px;
+}
+
+#user_profile{
+	
+}
+
+#profile_name{
+	  color: white;
+	  font-weight: bolder;
+}
+
+#isibio{
+	height: 93%;
+	width: 78%;
+	float: right;
+	background-color: rgba(249, 93, 217, 0.12);
+}
+
+#user_logo{
+	width: 70%;
+	height: 50%;
+	border-radius: 50%;
+}
+#menuLogout:hover{
+	cursor: pointer;
+}
+
+#menu_profile{
+	border: 2px groove;
+	border-radius: 5px;
+	background: rgb(219, 192, 170);
+	width: 80px;
+}
+
+.menu_logout{
+	margin: 5px;
+	padding: 5px;
+	border-bottom: 2px groove;
+}
+
+.menu_logout:hover{
+	color: darkviolet;
+	background: rgba(244, 158, 212, 1);
+	cursor: pointer;
+}
+
+.title{
+	border-bottom: 2px groove;
+	margin: 1em 1em;
+	font-family: Kristen ITC;
+}
+
+.welcome{
+	float: left;
+	width: 200px;
+	text-decoration: none;
+	margin-top: 50px;
+	color:rgb(166, 18, 29);
+	font-size: 15px;
+}
+
+.isi{
+	margin: 0 1em;
+	padding: 1em;
+	position: absolute;
+	width: 70%;
+}
+
+#profile, #history{
+	padding-left: 50px;
+	width: 800px;
+}
+
+table>tbody>tr>td{
+	padding: 2px;
+	font-size: 18px;
+	color: rgb(215, 35, 35);
+}
+
+#account_image{
+	width: 20%;
+	margin-left: 100px;
+}
+
+#account_setting, #account_setting_password, #account_setting_edit{
+	position: absolute;
+	right: 0;
+	margin: 1em;
+	margin-right: 100px;
+}
+
+.bgoption{
+	background-color: rgba(249, 93, 217, 0.66);
+	color: white;
+	position: absolute;
+	width: 16%;
+	z-index:1;
+	display: none;
+}
+
+.button-back, .button-back-jadwal{
+	margin-right:30px; 
+	border: 2px groove;
+	color: white;
+	background: black;
+	width: 60px;
+	height: 30px;
+	padding: 4px;
+}
+
+
+#faq{
+	margin-left: 234px;
+	width: 60%;
+	border-radius: 30px;
+	padding: 20px;
+	background-color: rgba(148, 101, 15, 0.45);
+}
+.contactus{
+	
+	margin-left: 234px;
+	width: 60%;
+	border-radius: 30px;
+	padding: 20px;
+	background-color:rgba(240, 203, 135, 0.38);
+}
+
+#simulasi{
+	margin-left: 30px;
+	padding: 41px;
+
+}

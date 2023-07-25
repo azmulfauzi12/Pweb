@@ -1,0 +1,61 @@
+#simulasi-wrapper{
+	height: 500px;
+}
+
+#simulasi-box{
+	width: 600px;
+	height: 400px;
+	border: 2px groove;
+	padding: 20px;
+	margin: 4em;
+}
+
+.menu-pilihan{
+	position: absolute;
+	margin: 30px 30px;
+	width: 250px;
+	text-align: justify;
+
+}
+
+.option1{
+	
+}
+
+.option2{
+	margin-top: 120px;
+}
+
+.option3{
+	margin-left: 350px;
+}
+
+.option4{
+	margin-top: 120px;
+	margin-left: 350px;
+}
+
+#box-timer{
+	width: 200px;
+	float: right;
+}
+
+ul{
+	list-style: none;
+	display: inline-flex;
+}
+
+.soaal{
+	width: 400px;
+  	text-align: left;
+}
+
+.tiime{
+	float: left;
+}
+
+#button-next{
+	position: absolute;
+	margin-top: 200px;
+	margin-left: -40px;
+}

@@ -1,0 +1,248 @@
+body{
+	margin: 0px auto;
+	background-image:url('images/2.jpeg');
+	background-position:fixed; 
+	background-size:cover;
+
+}
+.hidden{
+	display:none;
+}
+
+.menuLogin, .menuLogout{
+	float: left;
+	margin: 5px;
+	padding: 5px;
+	border: 2px dashed;
+	border-radius: 5px;
+	width: 70px;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-top: 50px 
+
+}
+.menuhead{
+	float: left;
+	margin: 5px;
+	padding: 5px;
+	border-top: 2px groove;
+	border-bottom: 2px groove;
+	width: 70px;
+	text-decoration: none;
+	margin-left: 200px;
+	margin-top: 20px 
+}
+
+.menuLogin:hover, .menuhead:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+#wrapper{
+	border: 2px solid;
+}
+
+#header{
+	box-shadow: 0px 0px 30px 0px;
+	height: 100px;
+	background: rgba(240, 230, 227, 1);
+	z-index: 1;
+}
+
+#content{
+	float: right;
+	width: 59%;
+
+}
+.content{
+	border-bottom: solid;
+	width: 100%;
+	font-size: 20px;
+
+}
+.content h2,h3,p{
+	font-family: Calligraph421 BT;
+
+}
+#isitengah{
+	height: 700px;
+	padding-bottom: 0px;
+	background-color: rgba(239, 202, 154, 1);
+}
+#pilihanmenu{
+	width: 40%;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
+.menuContent:hover{
+	cursor: pointer;
+	background: rgba(247, 181, 37, 0.9);
+	font-size: 24px;
+}
+.menuContent{
+	padding: 10px;
+}
+
+.tengah{
+	float: right;
+	right: 10em;
+	margin-top: 0px;
+	margin-right: 10px;
+}
+.tengah p,h2{
+	font-size: 20px;
+	font-family:Kristen ITC;
+}
+
+.footer{
+	background-color: rgba(252, 162, 162, 0.47);
+	border-top: solid;
+	border-color:rgb(210, 198, 198);
+
+}
+.menuFooter{
+	float:left;
+	margin: 5px 20px;
+	padding: 5px 20px;
+	width: 26%;
+	border: 2px solid;
+	background: linear-gradient(rgb(6,51,72),black);
+	color:white;
+
+}
+.fixed{
+	position: fixed;
+	width: 100%;
+}
+.menuHeader>ul>a>li{
+	display: inline;
+	margin: 5px 0;
+	padding: 5px 0;
+	float: left;
+	width: 60px;
+	height: 20px;
+	font-size: small;
+	font-variant: bold;
+}
+
+.menuHeader>ul>a>li:hover{
+	color: rgba(245, 171, 34, 1);
+	font-size: 25px;
+
+}
+
+.menuHeader{
+	-ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+    position: absolute;
+    right: 10px;
+    top: 30px;
+
+}
+#headerKiri{
+	float: left;
+	width:350px;
+	height:100%;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+#headerTengah{
+	float: left;
+	width:500px;
+	height:100%;
+	margin-right: 20px;
+}
+
+#marquee{
+	width: 400px;
+}
+
+#logo{
+	width: 100%;
+	height: 75%;
+}
+
+ul, h3, body, h4{
+	margin: 0;
+	padding: 0;
+}
+
+#borderatas{
+	border-bottom: 2px groove;
+	width: 160px;
+	right: 0;
+	top: 40;
+}
+#borderbawah{
+	border-bottom: 2px groove;
+	width: 200px;
+	right: 0;
+	top: 50;
+	margin-right: 30px;
+}
+
+.settingContent{
+	margin: 1em 1em;
+}
+#foot1{
+	border: solid;;
+	width: 10%;
+	float: left;
+	margin-left: 100px;
+	margin-top: 50px;
+	
+}
+#foot2{
+	border: solid;
+	width: 10%;
+	float: right;
+	margin-top: 50px;
+}
+#foot3{
+	border: solid;
+	width: 10%;
+	float: right;
+	margin-top: 50px;
+}
+
+#isifooter{
+	border: solid;
+}
+
+#container{
+	position: relative;
+
+}
+#tabel{
+	padding-top: 10px;
+	
+}
+#table p{
+}
+.tr, .td{
+	margin-left: 100px;
+	padding-top: 0px;
+	padding-left: 70px;
+	padding-right: 60px;
+
+}
+
+.imgContact{
+	 width:20px;
+	 
+}
+.imgContact:hover{
+	 width:25px;
+	 opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
